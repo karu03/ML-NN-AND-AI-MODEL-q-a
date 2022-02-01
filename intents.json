@@ -1,0 +1,43 @@
+{
+    "intents":[
+
+        {
+            "tag":"greeting",
+            "patterns":["hello","hey","friday","wake up","are you there"
+            ],
+            "response":["yes boss","yup","always for you boss","i am up boss"
+            ]
+        },
+        
+        {
+            "tag":"exit",
+            "patterns":["goodbye","bye","take some rest ","sleep","see you later"
+            ],
+            "response":["bye boss","ok boss","i am going to sleep boss","see you soon boss"
+            ]
+        },
+
+        {
+            "tag":"health",
+            "patterns":["how feeling","  alright","  fine"
+            ],
+            "response":["i am fine boss","i am so glad you asked,i am extremely happy boss","working with you is damn awesome boss","perfect","cool","i am good, what about you"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["time","what's the time","samay"
+            ],
+            "response":["time"
+            ]
+        },
+
+        {
+            "tag":"date",
+            "patterns":["date","what is today's date","tareekh"
+            ],
+            "response":["date"
+            ]
+        }
+    ]
+}
